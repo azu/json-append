@@ -1,0 +1,38 @@
+{
+  "name": "json-append",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/json-append.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/json-append",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/json-append/issues"
+  },
+  "version": "1.0.0",
+  "description": "command line tool that append item to array of json file.",
+  "main": "lib/json-append.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bin": {
+    "json-append": "bin/cmd.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "(cd example && npm t))"
+  },
+  "keywords": [
+    "json",
+    "console",
+    "cli"
+  ],
+  "dependencies": {
+    "concat-stream": "^1.5.1"
+  }
+}
