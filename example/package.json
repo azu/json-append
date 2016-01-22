@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "npm rm json-append && npm i",
-    "test": "printf 1 | json-append output.json && printf 2 | json-append output.json"
+    "test": "printf 1 | json-append output.json && printf '{\"a\": 1}' | json-append output.json"
   },
   "author": "azu",
   "license": "MIT",
