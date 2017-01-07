@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/azu/json-append/issues"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "command line tool that append item to array of json file.",
   "main": "lib/json-append.js",
   "files": [
